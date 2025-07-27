@@ -1,0 +1,287 @@
+/* --- RESET E ESTILOS GERAIS --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+/* --- ESTILOS DO Navbar --- */
+.header {
+    background-color: #276749;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    height: 30px;
+}
+
+.site-title {
+    font-size: 1.5rem;
+    color: #E0E0E0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    gap: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ABD3C0;
+}
+
+/* --- CONTAINER DO FORMULÁRIO --- */
+
+.denuncia-container {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* --- COLUNA DA ESQUERDA (FORMULÁRIO) --- */
+.formulario-denuncia {
+    flex: 1.5; 
+    padding: 50px;
+}
+
+.formulario-denuncia h2 {
+    color: #224233;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.85em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-family: 'Nunito', sans-serif;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn-enviar {
+    background-color: #609F81;
+    color: #ffffff;
+    border: none;
+    padding: 14px 50px;
+    border-radius: 51px;
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #276648;
+}
+
+
+/* --- COLUNA DA DIREITA (INFORMAÇÕES) --- */
+.info-container {
+    flex: 1; 
+    background-color: #ffffff;
+    color: #467c4a;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.info-container h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.info-container p {
+    font-size: 1em;
+    line-height: 1.7;
+    max-width: 350px;
+}
+
+.info-container img{
+    width: 100%;
+    height: auto; 
+    display: block;
+    margin-bottom: 20px
+}
+
+/* --- ESTILOS DO RODAPÉ --- */
+
+footer {
+    background-color: #276648;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: Nunito, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.footer-container, .footer-legal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-container {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 30px;
+}
+
+.footer-legal {
+    margin-top: 30px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #979797;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.footer-social a:hover {
+    border-color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-social img {
+    height: 18px;
+    width: 18px;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.footer-legal p {
+    margin: 0;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
