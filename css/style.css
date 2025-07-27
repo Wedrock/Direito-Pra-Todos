@@ -159,7 +159,7 @@ body {
 
 .denuncia-conteudo h2 {
     font-size: 1.93rem; 
-    color: #0d2847; 
+    color: #224233; 
     margin-top: 0;
     margin-bottom: 1rem; 
     font-weight: 600;
@@ -196,10 +196,9 @@ body {
 }
 
 .denuncia-imagem img {
-    max-width: 100%;
-    padding: 4rem 4rem;
-    height: auto;
-    display: block; 
+    width: 100%;
+    height: auto; 
+    display: block;
 }
 
 /* --- ESTILOS DO RODAPÉ --- */
