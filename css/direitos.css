@@ -5,23 +5,11 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     font-family: 'Nunito', sans-serif;
-    background-color: #ffffff;
     color: #333;
     line-height: 1.6;
+    background-color: #ffffff;
 }
-
-main {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
-}
-
 
 /* --- ESTILOS DO Navbar --- */
 .header {
@@ -62,107 +50,51 @@ main {
     color: #ABD3C0;
 }
 
-/* --- CONTAINER DO FORMULÁRIO --- */
+/* --- ESTILO DA SEÇÃO DE TÓPICOS --- */
 
-.denuncia-container {
-    display: flex;
-    max-width: 1100px;
-    width: 100%;
-    overflow: hidden;
+.topicos-direitos {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-
-/* --- COLUNA DA ESQUERDA --- */
-.formulario-denuncia {
-    flex: 1.5; 
-    padding: 50px;
-}
-
-.formulario-denuncia h2 {
-    color: #224233;
-    font-weight: 700;
-    margin-bottom: 35px;
-}
-
-.form-group {
-    margin-bottom: 25px;
-}
-
-.form-group label {
-    display: block;
-    font-size: 0.85em;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 14px;
-    border: 1px solid #dcdcdc;
-    border-radius: 5px;
-    font-size: 0.9em;
-    font-family: 'Nunito', sans-serif;
-}
-
-.form-group textarea {
-    resize: vertical;
-    min-height: 120px;
-}
-
-.btn-enviar {
-    background-color: #609F81;
-    color: #ffffff;
-    border: none;
-    padding: 14px 50px;
-    border-radius: 51px;
-    cursor: pointer;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 0.9em;
-    transition: background-color 0.3s ease;
-}
-
-.btn-enviar:hover {
-    background-color: #276648;
-}
-
-
-/* --- COLUNA DA DIREITA --- */
-
-.info-container {
-    flex: 1; 
-    background-color: #ffffff;
-    color: #467c4a;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.topicos-direitos h2 {
     text-align: center;
-    border-radius: 30px;
+    margin-bottom: 30px;
+    color: #276749;
 }
 
-.info-container h3 {
-    font-size: 1.6em;
-    font-weight: 700;
-    margin-bottom: 15px;
+.topic-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+    transition: transform 0.15s ease-in-out;
+    height: 100%; 
+    text-decoration: none;
 }
 
-.info-container p {
-    font-size: 1em;
-    line-height: 1.7;
-    max-width: 350px;
+.topic-card:hover {
+    transform: scale(1.03);
 }
 
-.info-container img{
-    width: 100%;
-    height: auto; 
-    display: block;
-    margin-bottom: 20px
+.topic-card .card-body {
+    padding: 1.25rem;
 }
+
+.topic-card .card-title {
+    font-size: 1.2rem;
+    color: #276749;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+}
+
+.topic-card .card-text {
+    font-size: 1rem;
+    color: #495057;
+    margin-bottom: 0;
+}
+
 
 /* --- ESTILOS DO RODAPÉ --- */
 
